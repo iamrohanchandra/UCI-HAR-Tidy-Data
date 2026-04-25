@@ -1,2 +1,10 @@
-# UCI-HAR-Tidy-Data
-This project cleans and reshapes the UCI Human Activity Recognition dataset into a tidy format. It merges raw data, keeps mean and standard deviation measurements, labels activities clearly, and outputs a second dataset with averages for each subject and activity. Everything is reproducible using the provided R script.
+This project cleans and processes the UCI Human Activity Recognition dataset.
+
+Steps performed:
+- Merged training and test datasets
+- Extracted mean and standard deviation variables
+- Added descriptive activity names
+- Cleaned variable names
+- Created a tidy dataset with averages for each subject and activity
+
+Run run_analysis.R to reproduce results.
